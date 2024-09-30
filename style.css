@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;  
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0px 150px;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* add shrink limit */
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+  
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.center {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.one {
+    /* margin: 24px; */
+    background-color: #1F2937;
+    display: flex;
+    padding: 60px 150px;
+    justify-content: space-between;
+    color: white;
+    gap: 60px;
+}
+
+.basis {
+    flex-basis: 580px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.bluebutton {
+    font-weight: 600;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 18px;
+    border: 0;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display:flex;
+    /* flex-flow: row wrap; */
+    gap: 24px;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 500px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.four {
+    display: flex;
+    /* flex-flow: column nowrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    border-radius: 10px;
+}
