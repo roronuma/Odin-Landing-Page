@@ -125,7 +125,15 @@ a {
     /* flex-flow: column nowrap; */
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    background-color: #3882F6;
+    padding: 30px 100px;
+    border-radius: 5px;
+    margin: 50px 100px;
+
+}
+.fourbox {
+    display: flex;
+
 }
 
 .footer {
