@@ -128,8 +128,6 @@ a {
     padding: 30px 100px;
     border-radius: 5px;
     margin: 60px 320px;
-    flex-basis: reverse 100px;
-
 }
 
 .fourbox {
@@ -146,7 +144,7 @@ a {
 } 
 
 .fourbutton {
-    flex-wrap: nowrap;
+    text-wrap: nowrap;
     background: none;
     padding: 3px 25px;
     border: 1px solid;
