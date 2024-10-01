@@ -122,18 +122,24 @@ a {
 
 .four {
     display: flex;
-    /* flex-flow: column nowrap; */
-    justify-content: center;
+    justify-content: space-between !important;
     align-items: center;
     background-color: #3882F6;
     padding: 30px 100px;
     border-radius: 5px;
-    margin: 50px 100px;
+    margin: 60px 320px;
 
 }
+
 .fourbox {
     display: flex;
+    color: white;
+    flex-direction: column;
 
+}
+
+.fourbutton {
+    background-color: none;
 }
 
 .footer {
@@ -144,7 +150,6 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 
 img {
     border-radius: 10px;
