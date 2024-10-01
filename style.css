@@ -93,7 +93,7 @@ a {
 }
 
 .subtext {
-    font-weight: 100;
+    /* font-weight: 100; */
 }
 
 .three {
@@ -102,7 +102,7 @@ a {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 100px 500px;
+    padding: 100px 380gitpx;
     
 }
 
@@ -111,7 +111,6 @@ a {
     font-family: roboto;
     font-style: italic; 
     font-weight: 300;
-    font-display: ;
     color: #1F2937;
     display: flex;
     flex-direction: row;
