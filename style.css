@@ -122,24 +122,38 @@ a {
 
 .four {
     display: flex;
-    justify-content: space-between !important;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
     padding: 30px 100px;
     border-radius: 5px;
     margin: 60px 320px;
+    flex-basis: reverse 100px;
 
 }
 
 .fourbox {
     display: flex;
-    color: white;
+    color: #E5E7EB;
     flex-direction: column;
-
+  
 }
 
+.action {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+} 
+
 .fourbutton {
-    background-color: none;
+    flex-wrap: nowrap;
+    background: none;
+    padding: 3px 25px;
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
 }
 
 .footer {
